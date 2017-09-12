@@ -10,7 +10,7 @@ const kovanProvider = new HDWalletProvider(mnemonic, 'https://kovan.infura.io');
 module.exports = {
   networks: {
     development: {
-      network_id: 15,
+      network_id: '*',
       host: 'localhost',
       port: 8545,
       gas: 1e8,

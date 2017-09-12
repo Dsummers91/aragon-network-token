@@ -5,6 +5,9 @@ import "zeppelin/token/ERC20.sol";
 import "./helpers/AragonTokenSaleMock.sol";
 import "./helpers/ThrowProxy.sol";
 import "./helpers/MultisigMock.sol";
+import '../contracts/MiniMeTokenFactory.sol';
+import '../contracts/ANPlaceholder.sol';
+import '../contracts/SaleWallet.sol';
 
 contract TestTokenPresale {
   uint public initialBalance = 200 finney;

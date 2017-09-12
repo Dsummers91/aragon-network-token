@@ -2,9 +2,9 @@
 
 const assertJump = require('./helpers/assertJump');
 const assertGas = require('./helpers/assertGas');
-var AragonTokenSaleTokenMock = artifacts.require("AragonTokenSaleTokenMock");
-var TokenReceiverMock = artifacts.require("TokenReceiverMock");
-var StandardToken = artifacts.require("MiniMeToken.sol");
+var AragonTokenSaleTokenMock = artifacts.require("./AragonTokenSaleTokenMock");
+var TokenReceiverMock = artifacts.require("./TokenReceiverMock");
+var StandardToken = artifacts.require("./MiniMeToken.sol");
 
 contract('StandardToken', function(accounts) {
   let token;

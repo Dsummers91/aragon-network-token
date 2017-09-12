@@ -3,6 +3,8 @@ pragma solidity ^0.4.8;
 import "truffle/Assert.sol";
 import '../contracts/ANT.sol';
 import '../contracts/MiniMeToken.sol';
+import '../contracts/MiniMeTokenFactory.sol';
+
 
 contract TestMiniMeCloning {
   MiniMeTokenFactory factory;

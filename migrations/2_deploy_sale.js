@@ -1,8 +1,8 @@
-var AragonTokenSale = artifacts.require("AragonTokenSale");
-var MiniMeTokenFactory = artifacts.require("MiniMeTokenFactory");
-var ANPlaceholder = artifacts.require("ANPlaceholder");
-var ANT = artifacts.require("ANT");
-var SaleWallet = artifacts.require("SaleWallet");
+var AragonTokenSale = artifacts.require("./AragonTokenSale.sol");
+var MiniMeTokenFactory = artifacts.require("./MiniMeTokenFactory.sol");
+var ANPlaceholder = artifacts.require("./ANPlaceholder.sol");
+var ANT = artifacts.require("./ANT.sol");
+var SaleWallet = artifacts.require("./SaleWallet.sol");
 
 
 module.exports = function(deployer, network, accounts) {

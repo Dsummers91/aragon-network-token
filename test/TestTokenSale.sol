@@ -6,6 +6,7 @@ import "./helpers/AragonTokenSaleMock.sol";
 import "./helpers/ThrowProxy.sol";
 import "./helpers/MultisigMock.sol";
 import "./helpers/NetworkMock.sol";
+import '../contracts/MiniMeTokenFactory.sol';
 
 contract TestTokenSale {
   uint public initialBalance = 200 finney;

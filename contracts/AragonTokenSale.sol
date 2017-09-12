@@ -83,7 +83,6 @@ Price increases by the same delta in every stage change
       bytes32 _capCommitment
   )
       non_zero_address(_aragonDevMultisig)
-      non_zero_address(_communityMultisig)
   {
       if (_initialBlock < getBlockNumber()) throw;
       if (_initialBlock >= _finalBlock) throw;
@@ -110,8 +109,6 @@ Price increases by the same delta in every stage change
 
   function setANT(address _token, address _networkPlaceholder, address _saleWallet)
            non_zero_address(_token)
-           non_zero_address(_networkPlaceholder)
-           non_zero_address(_saleWallet)
            only(aragonDevMultisig)
            public {
 
